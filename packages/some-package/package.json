@@ -1,0 +1,11 @@
+{
+  "name": "some-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

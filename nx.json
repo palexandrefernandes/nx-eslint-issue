@@ -1,0 +1,16 @@
+{
+  "tasksRunnerOptions": {
+    "workspaceLayout": {
+      "libsDir": "",
+      "appsDir": ""
+    },
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["lint"]
+      }
+    }
+  },
+  "targetDefaults": {},
+  "defaultBase": "master"
+}

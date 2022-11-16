@@ -1,0 +1,18 @@
+{
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "targets": {
+      "lint": {
+        "executor": "@nrwl/linter:eslint",
+        "options": {
+          "ignorePath": "packages/some-package/.eslintignore",
+          "lintFilePatterns": [
+            "packages/some-package/src"
+          ],
+          "quiet": true
+        },
+        "outputs": [
+          "{options.outputFile}"
+        ]
+      }
+    }
+  }
